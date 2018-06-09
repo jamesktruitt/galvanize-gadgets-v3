@@ -1,0 +1,20 @@
+{
+  "name": "version-3",
+  "version": "1.0.0",
+  "description": "A drill where you will model state and behavior of a file system",
+  "main": "directory.js",
+  "directories": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha --exit"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "CJ, Dan and Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
